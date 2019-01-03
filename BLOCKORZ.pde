@@ -53,7 +53,8 @@ void setup() {
   //Sound: 
   minim = new Minim(this);
   winSound = minim.loadFile("data/win.mp3");
-  dieSound = minim.loadFile("data/die.mp3");
+  dieSound = minim.loadFile("data/lose.mp3");
+  //apunk.mp3 from https://www.youtube.com/watch?v=4CnCprRsJLs 
   song = minim.loadFile("data/apunk.mp3");
   song.play();
   song.loop();
